@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="SanityParallelMethodsTest(failed)">
+    <classes>
+      <class name="com.wciauction.monitoring.tests.PublicHomePageTest">
+        <methods>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="Verify_Contact_Us_Functionality_for_Logged_In_User"/>
+          <include name="Verify_Contact_Us_Functionality_for_public_User"/>
+          <include name="setup"/>
+          <include name="setupGrid"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.wciauction.monitoring.tests.PublicHomePageTest -->
+      <class name="com.wciauction.monitoring.tests.MonitoringPageTest">
+        <methods>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="setupGrid"/>
+          <include name="setup"/>
+          <include name="verify_That_The_Sponsor_Can_Exclude_And_Include_Multiple_Bids"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.wciauction.monitoring.tests.MonitoringPageTest -->
+      <class name="com.wciauction.auctionevents.tests.EventCreationByEATest">
+        <methods>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="setupGrid"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="Verify_Event_Creation_by_Event_Administrator"/>
+        </methods>
+      </class> <!-- com.wciauction.auctionevents.tests.EventCreationByEATest -->
+      <class name="com.wciauction.user.tests.UserAdministrationTest">
+        <methods>
+          <include name="verify_Deactivate_User_Functionality"/>
+          <include name="verify_Sponsor_Can_Access_User_Administration_Screen_From_Contextual_Navigation_Bar"/>
+          <include name="verify_Sponsor_Must_Be_Able_To_Search_The_Data_By_Email_ID"/>
+          <include name="verify_User_Grid_Displays_Only_One_Record_Per_Unique_User_Entity_Relation_For_AR_User_Record"/>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="setupGrid"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.wciauction.user.tests.UserAdministrationTest -->
+      <class name="com.wciauction.auth.tests.LoginTest">
+        <methods>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="setupGrid"/>
+          <include name="setup"/>
+          <include name="verify_the_login_functionality_of_all_users"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.wciauction.auth.tests.LoginTest -->
+    </classes>
+  </test> <!-- SanityParallelMethodsTest(failed) -->
+  <test thread-count="5" parallel="classes" name="SanityParallelClasesTest(failed)">
+    <classes>
+      <class name="com.wciauction.auctionevents.tests.SingleAuctionApprovalWATest">
+        <methods>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="setup"/>
+          <include name="setupGrid"/>
+          <include name="Verify_Run_Algorithm_Functionality_by_First_Sponsor_of_Washington_Jurisdiction_for_Single_Auction_Event"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.wciauction.auctionevents.tests.SingleAuctionApprovalWATest -->
+      <class name="com.wciauction.auctionevents.tests.SingleAuctionApprovalCATest">
+        <methods>
+          <include name="Verify_Run_Algorithm_Functionality_by_First_Sponsor_of_California_Jurisdiction_for_Single_Auction_Event"/>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="setupGrid"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.wciauction.auctionevents.tests.SingleAuctionApprovalCATest -->
+      <class name="com.wciauction.auctionevents.tests.WAAPCREventApprovalTest">
+        <methods>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="setupGrid"/>
+          <include name="setup"/>
+          <include name="Verify_Run_Algorithm_Functionality_by_First_Sponsor_of_Washington_Jurisdiction_for_APCR_Event"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.wciauction.auctionevents.tests.WAAPCREventApprovalTest -->
+      <class name="com.wciauction.auctionevents.tests.SingleAuctionApprovalQCTest">
+        <methods>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="Verify_Run_Algorithm_Functionality_by_Second_Sponsor_of_Quebec_Jurisdiction_for_Single_Auction_Event"/>
+          <include name="setupGrid"/>
+          <include name="setup"/>
+          <include name="Verify_Event_Certification_Functionality_by_First_Sponsor_of_Quebec_Jurisdiction_for_Single_Auction_Event"/>
+          <include name="Verify_Run_Algorithm_Functionality_by_First_Sponsor_of_Quebec_Jurisdiction_for_Single_Auction_Event"/>
+          <include name="Verify_that_Reports_are_Generated_after_Event_Certification_of_Single_Auction_for_Quebec_Jurisdiction"/>
+          <include name="Verify_Event_Certification_Functionality_by_Second_Sponsor_of_Quebec_Jurisdiction_for_Single_Auction_Event"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.wciauction.auctionevents.tests.SingleAuctionApprovalQCTest -->
+      <class name="com.wciauction.auctionevents.tests.CAReserveSaleEventApprovalTest">
+        <methods>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="setupGrid"/>
+          <include name="setup"/>
+          <include name="Verify_that_Sponsor_User_Edits_Bidding_Window_Close_Time_and_Provides_First_Approval_for_Reserve_Sale_in_California_Jurisdiction"/>
+          <include name="Verify_Run_Algorithm_Functionality_by_First_Sponsor_of_California_Jurisdiction_for_Reserve_Sale_Event"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.wciauction.auctionevents.tests.CAReserveSaleEventApprovalTest -->
+      <class name="com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest">
+        <methods>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="setupGrid"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="Verification_of_Added_FX_Rate_by_California_Jurisdiction"/>
+        </methods>
+      </class> <!-- com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest -->
+      <class name="com.wciauction.auctionevents.tests.BiddingTest">
+        <methods>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="Verify_Market_Monitor_Can_Flag_Unflag_and_Add_Comments_on_Multiple_Bids_in_SBMA_Event"/>
+          <include name="Verify_that_Market_Monitor_Can_Perform_Sorting_on_the_Bidding_Page"/>
+          <include name="setupGrid"/>
+          <include name="setup"/>
+          <include name="Verify_AR_User_Can_Delete_All_Submitted_Bids_for_the_Entity"/>
+          <include name="Verify_AR_User_Can_View_Reserve_Sale_Event_Details_on_Bidding_Page_During_Open_Bidding_Window"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.wciauction.auctionevents.tests.BiddingTest -->
+      <class name="com.wciauction.auctionevents.tests.QCSBMAEventApprovalTest">
+        <methods>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="setupGrid"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="Verify_Run_Algorithm_Functionality_by_First_Sponsor_of_Quebec_Jurisdiction_for_SBMA_Event"/>
+        </methods>
+      </class> <!-- com.wciauction.auctionevents.tests.QCSBMAEventApprovalTest -->
+    </classes>
+  </test> <!-- SanityParallelClasesTest(failed) -->
+  <test thread-count="5" name="SanityParallelCMSTest(failed)">
+    <classes>
+      <class name="com.wciauction.cms.tests.CMS_Test">
+        <methods>
+          <include name="verification_of_Upload_CMS_file_functionality_by_Sponsor_and_verify_by_AR_for_Washington_Jurisdiction"/>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="verification_of_Upload_CMS_file_functionality_by_Event_Administrator_and_verify_by_AR_for_California_Jurisdiction"/>
+          <include name="setupGrid"/>
+          <include name="setup"/>
+          <include name="verification_of_Upload_CMS_file_functionality_by_Sponsor_and_verify_by_AR_for_Quebec_Jurisdiction"/>
+          <include name="verification_of_Upload_CMS_file_functionality_by_Sponsor_and_verify_by_AR_for_California_Jurisdiction"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.wciauction.cms.tests.CMS_Test -->
+    </classes>
+  </test> <!-- SanityParallelCMSTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

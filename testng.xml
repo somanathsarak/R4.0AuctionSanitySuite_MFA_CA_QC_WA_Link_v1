@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="10" parallel= "methods" name="SanityParallelMethodsTest">
+    <classes>
+      <class name="com.wciauction.auth.tests.LoginTest"/>
+      <class name="com.wciauction.auctionevents.tests.EventCreationByEATest"/>
+      <class name="com.wciauction.auth.tests.ChangePassphraseAndSecurityQuestionTest"/>
+      <class name="com.wciauction.monitoring.tests.PublicHomePageTest"/>
+      <class name="com.wciauction.monitoring.tests.MonitoringPageTest"/>
+      <class name="com.wciauction.user.tests.UserAdministrationTest"/>
+      <class name="com.wciauction.api.tests.APIExecutionTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="8" parallel= "classes"  name="SanityParallelClasesTest">
+    <classes>
+      <class name="com.wciauction.auctionevents.tests.SingleAuctionApprovalWATest"/>
+      <class name="com.wciauction.auctionevents.tests.BiddingTest"/>
+      <class name="com.wciauction.auctionevents.tests.QCSBMAEventApprovalTest"/>
+      <class name="com.wciauction.auctionevents.tests.SingleAuctionApprovalCATest"/>
+      <class name="com.wciauction.auctionevents.tests.CAReserveSaleEventApprovalTest"/>
+      <class name="com.wciauction.auctionevents.tests.SingleAuctionApprovalQCTest"/>
+      <class name="com.wciauction.auctionevents.tests.WAAPCREventApprovalTest"/>
+      <class name="com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="1" name="SanityParallelCMSTest">
+    <classes>
+      <class name="com.wciauction.cms.tests.CMS_Test" />
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

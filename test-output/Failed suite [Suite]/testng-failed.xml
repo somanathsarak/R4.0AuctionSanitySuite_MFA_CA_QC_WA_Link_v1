@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Parallel Class Tests(failed)(failed)">
+    <classes>
+      <class name="testClasses.CreateEventTest">
+        <methods>
+          <include name="createNewEvent"/>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="setupGrid"/>
+          <include name="setup"/>
+          <include name="Application_open_and_close_time_can_be_in_the_past"/>
+          <include name="SponsorClickonNewCreateButtonEAPage"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testClasses.CreateEventTest -->
+      <class name="testClasses.Test_Bidding">
+        <methods>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="setupGrid"/>
+          <include name="setup"/>
+          <include name="confirmEventNameIsDisplayedInTheEventHeaderSection"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testClasses.Test_Bidding -->
+      <class name="testClasses.Test_ReportWashingtonReserveSale">
+        <methods>
+          <include name="verifyCreateReserveSaleEventFunctionalityForWashington"/>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="setup"/>
+          <include name="setupGrid"/>
+          <include name="secondapproval"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testClasses.Test_ReportWashingtonReserveSale -->
+      <class name="testClasses.Tests_MonitoringPage">
+        <methods>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="verify_the_access_For_Sponsor_to_the_monitoring_pages"/>
+          <include name="setupGrid"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testClasses.Tests_MonitoringPage -->
+      <class name="testClasses.PrivateHomePageTests">
+        <methods>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="setupGrid"/>
+          <include name="setup"/>
+          <include name="Verify_Login_functionality_for_all_private_homepages_of_all_user_roles_of_California_jurisdiction_works_properly"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testClasses.PrivateHomePageTests -->
+      <class name="testClasses.Test_ReportCaliforniaSingleauction">
+        <methods>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="setupGrid"/>
+          <include name="setup"/>
+          <include name="createEventForCaliforniaJurisdiction"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testClasses.Test_ReportCaliforniaSingleauction -->
+      <class name="testClasses.Test_ReportWashingtonSingleauction">
+        <methods>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="setApprovalForEventCreation"/>
+          <include name="setup"/>
+          <include name="setupGrid"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testClasses.Test_ReportWashingtonSingleauction -->
+      <class name="testClasses.TestSuitesTestCases">
+        <methods>
+          <include name="shutdownGridAfterSuite"/>
+          <include name="setupGrid"/>
+          <include name="setup"/>
+          <include name="verifyUserGridDisplaysOnlyOneRecordPerUniqueUserEntityRelationForARUserRecord"/>
+          <include name="verifyTheSelectedUserSecurityQuestionsAreReset"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testClasses.TestSuitesTestCases -->
+    </classes>
+  </test> <!-- Parallel Class Tests(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

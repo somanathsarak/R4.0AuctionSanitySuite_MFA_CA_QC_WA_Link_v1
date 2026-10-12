@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="2" ignored="0" total="16" passed="13" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-10T12:00:03 IST" name="Default suite" finished-at="2026-08-10T12:32:00 IST" duration-ms="1917104">
+    <groups>
+      <group name="sanity">
+        <method signature="JointAuctionApprovalReportsTest.Verification_of_Added_FX_Rate_by_California_Jurisdiction()[pri:4, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" name="Verification_of_Added_FX_Rate_by_California_Jurisdiction" class="com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest"/>
+        <method signature="JointAuctionApprovalReportsTest.Verification_of_Added_FX_Rate_by_Quebec_Jurisdiction()[pri:3, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" name="Verification_of_Added_FX_Rate_by_Quebec_Jurisdiction" class="com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest"/>
+        <method signature="JointAuctionApprovalReportsTest.Verify_Event_Certification_Functionality_by_First_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:12, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" name="Verify_Event_Certification_Functionality_by_First_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" class="com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest"/>
+        <method signature="JointAuctionApprovalReportsTest.Verify_Event_Certification_Functionality_by_Second_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:13, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" name="Verify_Event_Certification_Functionality_by_Second_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" class="com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest"/>
+        <method signature="JointAuctionApprovalReportsTest.Verify_Execute_API_Functionality_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:5, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" name="Verify_Execute_API_Functionality_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" class="com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest"/>
+        <method signature="JointAuctionApprovalReportsTest.Verify_Run_Algorithm_Functionality_by_First_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:10, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" name="Verify_Run_Algorithm_Functionality_by_First_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" class="com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest"/>
+        <method signature="JointAuctionApprovalReportsTest.Verify_Run_Algorithm_Functionality_by_Second_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:11, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" name="Verify_Run_Algorithm_Functionality_by_Second_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" class="com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest"/>
+        <method signature="JointAuctionApprovalReportsTest.Verify_Second_Level_Approval_for_Joint_Auction_Event_in_Quebec_and_California_Jurisdictions()[pri:2, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" name="Verify_Second_Level_Approval_for_Joint_Auction_Event_in_Quebec_and_California_Jurisdictions" class="com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest"/>
+        <method signature="JointAuctionApprovalReportsTest.Verify_that_AR_User_Raised_Bid_for_First_Entity_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:6, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" name="Verify_that_AR_User_Raised_Bid_for_First_Entity_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" class="com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest"/>
+        <method signature="JointAuctionApprovalReportsTest.Verify_that_AR_User_Raised_Bid_for_Second_Entity_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:7, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" name="Verify_that_AR_User_Raised_Bid_for_Second_Entity_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" class="com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest"/>
+        <method signature="JointAuctionApprovalReportsTest.Verify_that_Reports_are_Generated_after_Event_Certification_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:14, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" name="Verify_that_Reports_are_Generated_after_Event_Certification_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" class="com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest"/>
+        <method signature="JointAuctionApprovalReportsTest.Verify_that_Sponsor_User_Edits_Bidding_Window_Close_Time_and_Provides_First_Approval_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:8, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" name="Verify_that_Sponsor_User_Edits_Bidding_Window_Close_Time_and_Provides_First_Approval_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" class="com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest"/>
+        <method signature="JointAuctionApprovalReportsTest.Verify_that_Sponsor_User_Provides_Second_Approval_for_Bidding_Window_Close_Time_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:9, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" name="Verify_that_Sponsor_User_Provides_Second_Approval_for_Bidding_Window_Close_Time_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" class="com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2026-08-10T12:00:03 IST" name="Default test" finished-at="2026-08-10T12:32:00 IST" duration-ms="1917104">
+      <class name="com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest">
+        <test-method is-config="true" signature="setupGrid()[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:00:03 IST" name="setupGrid" finished-at="2026-08-10T12:00:03 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupGrid -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:00:03 IST" name="setup" finished-at="2026-08-10T12:00:16 IST" duration-ms="12525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Joint_Auction_Event_Creation_for_Quebec_and_California_Jurisdictions_with_First_Level_Approval()[pri:1, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:00:16 IST" name="Verify_Joint_Auction_Event_Creation_for_Quebec_and_California_Jurisdictions_with_First_Level_Approval" finished-at="2026-08-10T12:02:17 IST" duration-ms="121358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Joint_Auction_Event_Creation_for_Quebec_and_California_Jurisdictions_with_First_Level_Approval -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:02:20 IST" name="teardown" finished-at="2026-08-10T12:02:22 IST" duration-ms="2270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:02:22 IST" name="setup" finished-at="2026-08-10T12:02:37 IST" duration-ms="15013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Second_Level_Approval_for_Joint_Auction_Event_in_Quebec_and_California_Jurisdictions()[pri:2, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:02:37 IST" name="Verify_Second_Level_Approval_for_Joint_Auction_Event_in_Quebec_and_California_Jurisdictions" finished-at="2026-08-10T12:03:45 IST" duration-ms="67962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Second_Level_Approval_for_Joint_Auction_Event_in_Quebec_and_California_Jurisdictions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:03:47 IST" name="teardown" finished-at="2026-08-10T12:03:48 IST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:03:48 IST" name="setup" finished-at="2026-08-10T12:04:01 IST" duration-ms="12835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verification_of_Added_FX_Rate_by_Quebec_Jurisdiction()[pri:3, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:04:01 IST" name="Verification_of_Added_FX_Rate_by_Quebec_Jurisdiction" finished-at="2026-08-10T12:05:20 IST" duration-ms="79372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verification_of_Added_FX_Rate_by_Quebec_Jurisdiction -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:05:22 IST" name="teardown" finished-at="2026-08-10T12:05:24 IST" duration-ms="1447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:05:24 IST" name="setup" finished-at="2026-08-10T12:05:37 IST" duration-ms="13494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verification_of_Added_FX_Rate_by_California_Jurisdiction()[pri:4, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:05:37 IST" name="Verification_of_Added_FX_Rate_by_California_Jurisdiction" finished-at="2026-08-10T12:07:30 IST" duration-ms="112254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verification_of_Added_FX_Rate_by_California_Jurisdiction -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:07:32 IST" name="teardown" finished-at="2026-08-10T12:07:34 IST" duration-ms="2234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:07:34 IST" name="setup" finished-at="2026-08-10T12:07:48 IST" duration-ms="14074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Execute_API_Functionality_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:5, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:07:48 IST" name="Verify_Execute_API_Functionality_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" finished-at="2026-08-10T12:09:20 IST" duration-ms="91679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Execute_API_Functionality_for_Joint_Auction_in_Quebec_and_California_Jurisdictions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:09:22 IST" name="teardown" finished-at="2026-08-10T12:09:23 IST" duration-ms="1077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:09:23 IST" name="setup" finished-at="2026-08-10T12:09:35 IST" duration-ms="12474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_that_AR_User_Raised_Bid_for_First_Entity_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:6, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:09:35 IST" name="Verify_that_AR_User_Raised_Bid_for_First_Entity_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" finished-at="2026-08-10T12:09:35 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_that_AR_User_Raised_Bid_for_First_Entity_for_Joint_Auction_in_Quebec_and_California_Jurisdictions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:09:37 IST" name="teardown" finished-at="2026-08-10T12:09:37 IST" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:09:37 IST" name="setup" finished-at="2026-08-10T12:09:50 IST" duration-ms="12349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method retried="true" signature="Verify_that_AR_User_Raised_Bid_for_Second_Entity_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:7, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:09:50 IST" name="Verify_that_AR_User_Raised_Bid_for_Second_Entity_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" finished-at="2026-08-10T12:14:01 IST" duration-ms="251703" status="SKIP">
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [26ad0563cdd52696e4382609c16166f8, actions {actions=[org.openqa.selenium.interactions.Sequence@1dfcf85a]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\eqani\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51127}, goog:processID: 19720, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51127/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26ad0563cdd52696e4382609c16166f8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [26ad0563cdd52696e4382609c16166f8, actions {actions=[org.openqa.selenium.interactions.Sequence@1dfcf85a]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\eqani\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51127}, goog:processID: 19720, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51127/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26ad0563cdd52696e4382609c16166f8
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
+at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1921)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
+at java.base/java.util.Map.forEach(Map.java:716)
+at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
+at org.openqa.selenium.json.Json.toJson(Json.java:133)
+at org.openqa.selenium.json.Json.toJson(Json.java:119)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:245)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:111)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:178)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+at com.wciauction.pageObjects.auction.JointAuctionTieBreakerPage.BiddingByARforTestData5(JointAuctionTieBreakerPage.java:8760)
+at com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest.Verify_that_AR_User_Raised_Bid_for_Second_Entity_for_Joint_Auction_in_Quebec_and_California_Jurisdictions(JointAuctionApprovalReportsTest.java:147)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
+at org.openqa.selenium.json.Json.toJson(Json.java:131)
+... 37 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
+... 58 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='ADD BID']"}
+  (Session info: chrome=151.0.7922.77)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [26ad0563cdd52696e4382609c16166f8, findElement {using=xpath, value=//*[text()='ADD BID']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\eqani\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51127}, goog:processID: 19720, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51127/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26ad0563cdd52696e4382609c16166f8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy22.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:259)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:208)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+... 60 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_that_AR_User_Raised_Bid_for_Second_Entity_for_Joint_Auction_in_Quebec_and_California_Jurisdictions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:14:02 IST" name="teardown" finished-at="2026-08-10T12:14:03 IST" duration-ms="1397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:14:03 IST" name="setup" finished-at="2026-08-10T12:14:18 IST" duration-ms="14943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method retried="true" signature="Verify_that_AR_User_Raised_Bid_for_Second_Entity_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:7, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:14:18 IST" name="Verify_that_AR_User_Raised_Bid_for_Second_Entity_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" finished-at="2026-08-10T12:18:24 IST" duration-ms="245699" status="SKIP">
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5819d6ce26649f31ce852051e55b0f83, actions {actions=[org.openqa.selenium.interactions.Sequence@4f6ff62]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\eqani\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62278}, goog:processID: 19180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62278/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5819d6ce26649f31ce852051e55b0f83]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5819d6ce26649f31ce852051e55b0f83, actions {actions=[org.openqa.selenium.interactions.Sequence@4f6ff62]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\eqani\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62278}, goog:processID: 19180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62278/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5819d6ce26649f31ce852051e55b0f83
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
+at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1921)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
+at java.base/java.util.Map.forEach(Map.java:716)
+at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
+at org.openqa.selenium.json.Json.toJson(Json.java:133)
+at org.openqa.selenium.json.Json.toJson(Json.java:119)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:245)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:111)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:178)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+at com.wciauction.pageObjects.auction.JointAuctionTieBreakerPage.BiddingByARforTestData5(JointAuctionTieBreakerPage.java:8760)
+at com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest.Verify_that_AR_User_Raised_Bid_for_Second_Entity_for_Joint_Auction_in_Quebec_and_California_Jurisdictions(JointAuctionApprovalReportsTest.java:147)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
+at org.openqa.selenium.json.Json.toJson(Json.java:131)
+... 37 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
+... 58 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='ADD BID']"}
+  (Session info: chrome=151.0.7922.77)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5819d6ce26649f31ce852051e55b0f83, findElement {using=xpath, value=//*[text()='ADD BID']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\eqani\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62278}, goog:processID: 19180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62278/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5819d6ce26649f31ce852051e55b0f83
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy22.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:259)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:208)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+... 60 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_that_AR_User_Raised_Bid_for_Second_Entity_for_Joint_Auction_in_Quebec_and_California_Jurisdictions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:18:24 IST" name="teardown" finished-at="2026-08-10T12:18:24 IST" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:18:24 IST" name="setup" finished-at="2026-08-10T12:18:36 IST" duration-ms="11432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_that_AR_User_Raised_Bid_for_Second_Entity_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:7, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:18:36 IST" name="Verify_that_AR_User_Raised_Bid_for_Second_Entity_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" finished-at="2026-08-10T12:22:43 IST" duration-ms="247296" status="FAIL">
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [74c7bd1f2ccc497d38c82aa7e4daf047, actions {actions=[org.openqa.selenium.interactions.Sequence@2447940d]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\eqani\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52796}, goog:processID: 9544, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52796/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 74c7bd1f2ccc497d38c82aa7e4daf047]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [74c7bd1f2ccc497d38c82aa7e4daf047, actions {actions=[org.openqa.selenium.interactions.Sequence@2447940d]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\eqani\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52796}, goog:processID: 9544, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52796/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 74c7bd1f2ccc497d38c82aa7e4daf047
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
+at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1921)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
+at java.base/java.util.Map.forEach(Map.java:716)
+at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
+at org.openqa.selenium.json.Json.toJson(Json.java:133)
+at org.openqa.selenium.json.Json.toJson(Json.java:119)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:245)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:111)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:178)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:605)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+at com.wciauction.pageObjects.auction.JointAuctionTieBreakerPage.BiddingByARforTestData5(JointAuctionTieBreakerPage.java:8760)
+at com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest.Verify_that_AR_User_Raised_Bid_for_Second_Entity_for_Joint_Auction_in_Quebec_and_California_Jurisdictions(JointAuctionApprovalReportsTest.java:147)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
+at org.openqa.selenium.json.Json.toJson(Json.java:131)
+... 37 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
+... 58 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='ADD BID']"}
+  (Session info: chrome=151.0.7922.77)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [74c7bd1f2ccc497d38c82aa7e4daf047, findElement {using=xpath, value=//*[text()='ADD BID']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.77, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\eqani\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52796}, goog:processID: 9544, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52796/devtoo..., se:cdpVersion: 151.0.7922.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 74c7bd1f2ccc497d38c82aa7e4daf047
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy22.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:259)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:208)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+... 60 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_that_AR_User_Raised_Bid_for_Second_Entity_for_Joint_Auction_in_Quebec_and_California_Jurisdictions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:22:45 IST" name="teardown" finished-at="2026-08-10T12:22:46 IST" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:22:46 IST" name="setup" finished-at="2026-08-10T12:22:57 IST" duration-ms="11079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_that_Sponsor_User_Edits_Bidding_Window_Close_Time_and_Provides_First_Approval_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:8, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:22:57 IST" name="Verify_that_Sponsor_User_Edits_Bidding_Window_Close_Time_and_Provides_First_Approval_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" finished-at="2026-08-10T12:24:48 IST" duration-ms="111320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_that_Sponsor_User_Edits_Bidding_Window_Close_Time_and_Provides_First_Approval_for_Joint_Auction_in_Quebec_and_California_Jurisdictions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:24:50 IST" name="teardown" finished-at="2026-08-10T12:24:51 IST" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:24:51 IST" name="setup" finished-at="2026-08-10T12:25:02 IST" duration-ms="11441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_that_Sponsor_User_Provides_Second_Approval_for_Bidding_Window_Close_Time_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:9, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:25:02 IST" name="Verify_that_Sponsor_User_Provides_Second_Approval_for_Bidding_Window_Close_Time_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" finished-at="2026-08-10T12:25:59 IST" duration-ms="57319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_that_Sponsor_User_Provides_Second_Approval_for_Bidding_Window_Close_Time_for_Joint_Auction_in_Quebec_and_California_Jurisdictions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:26:01 IST" name="teardown" finished-at="2026-08-10T12:26:02 IST" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:26:02 IST" name="setup" finished-at="2026-08-10T12:26:13 IST" duration-ms="11007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Run_Algorithm_Functionality_by_First_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:10, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:26:13 IST" name="Verify_Run_Algorithm_Functionality_by_First_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" finished-at="2026-08-10T12:27:14 IST" duration-ms="61430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Run_Algorithm_Functionality_by_First_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:27:16 IST" name="teardown" finished-at="2026-08-10T12:27:17 IST" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:27:17 IST" name="setup" finished-at="2026-08-10T12:27:28 IST" duration-ms="10842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Run_Algorithm_Functionality_by_Second_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:11, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:27:28 IST" name="Verify_Run_Algorithm_Functionality_by_Second_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" finished-at="2026-08-10T12:28:50 IST" duration-ms="82625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Run_Algorithm_Functionality_by_Second_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:28:52 IST" name="teardown" finished-at="2026-08-10T12:28:52 IST" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:28:52 IST" name="setup" finished-at="2026-08-10T12:29:05 IST" duration-ms="12428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Event_Certification_Functionality_by_First_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:12, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:29:05 IST" name="Verify_Event_Certification_Functionality_by_First_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" finished-at="2026-08-10T12:29:56 IST" duration-ms="51505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Event_Certification_Functionality_by_First_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:29:58 IST" name="teardown" finished-at="2026-08-10T12:29:58 IST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:29:58 IST" name="setup" finished-at="2026-08-10T12:30:09 IST" duration-ms="10832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Event_Certification_Functionality_by_Second_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:13, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:30:09 IST" name="Verify_Event_Certification_Functionality_by_Second_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" finished-at="2026-08-10T12:30:56 IST" duration-ms="46665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Event_Certification_Functionality_by_Second_Sponsor_for_Joint_Auction_in_Quebec_and_California_Jurisdictions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:30:58 IST" name="teardown" finished-at="2026-08-10T12:30:58 IST" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:30:58 IST" name="setup" finished-at="2026-08-10T12:31:10 IST" duration-ms="11304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_that_Reports_are_Generated_after_Event_Certification_for_Joint_Auction_in_Quebec_and_California_Jurisdictions()[pri:14, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:31:10 IST" name="Verify_that_Reports_are_Generated_after_Event_Certification_for_Joint_Auction_in_Quebec_and_California_Jurisdictions" finished-at="2026-08-10T12:31:58 IST" duration-ms="48422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_that_Reports_are_Generated_after_Event_Certification_for_Joint_Auction_in_Quebec_and_California_Jurisdictions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:31:59 IST" name="teardown" finished-at="2026-08-10T12:32:00 IST" duration-ms="530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="shutdownGridAfterSuite()[pri:0, instance:com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest@158d2680]" started-at="2026-08-10T12:32:00 IST" name="shutdownGridAfterSuite" finished-at="2026-08-10T12:32:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdownGridAfterSuite -->
+      </class> <!-- com.wciauction.auctionevents.tests.JointAuctionApprovalReportsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

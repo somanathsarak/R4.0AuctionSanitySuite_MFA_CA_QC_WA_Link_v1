@@ -1,0 +1,12 @@
+# CODEOWNERS file for dual approval requirement
+# This file defines who must approve changes to files in this repository
+# 
+# Dual approval required for all files:
+# 1. First approval from GitHub Copilot (copilot-swe-agent[bot])
+# 2. Second approval from vishal.giram@eqanim.com
+
+# All files require approval from both reviewers
+# Note: For GitHub Apps/bots, the approvals need to be configured through branch protection rules
+# The workflow will verify that 2 unique approvals are present before allowing merge
+* vishal.giram@eqanim.com
+
